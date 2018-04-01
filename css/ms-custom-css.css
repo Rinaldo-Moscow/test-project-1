@@ -1,0 +1,194 @@
+/* Убираем Outline Border */
+.navbar-toggler {
+  outline: none !important;
+}
+
+
+/* Настройки стилей для высокого разрешения */
+@media (min-width: 1600px) {
+#MS-Navigation-Menu, #MS-Contact-Us-Button {
+	margin-top: 7.7em !important;
+}
+#SM-Banner-Text {
+	margin-bottom: 21em !important;	
+}
+#MS-Background-Image {
+	box-shadow:0 0 0 328px rgba(0, 0, 0, 0.33) inset !important;
+}
+#MS-Logo-Background:after {
+	height: 550px !important;
+}
+}
+
+
+
+/* Настройки фона Логотипа */
+@media (min-width: 768px) {
+#MS-Logo-Background {
+           	width:100%;
+           	position: relative;
+           }
+		   
+#MS-Logo-Background:after {
+           	content: "";
+           	position: absolute;
+           	display: block;
+           	top:0; left:0; right:0; bottom:0;
+           	background: linear-gradient(-13deg, transparent 63%, #00544e 0);
+			height: 450px;
+			z-index: -1;
+			margin-left: -15px;
+			margin-right: -15px;
+           }
+}
+
+
+
+/* Настройки Логотипа */
+#MS-Logo-Text {
+	font-weight: bold;
+	text-align: left;
+	color: #ffffff;
+	margin-left: -10px;
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+#MS-Logo-Text {
+	display: none;
+}}
+
+
+#MS-Logo-Text-Mobile {
+	font-weight: bold;
+	text-align: center;
+	color: #00544e;
+}
+
+@media (min-width: 768px) {
+#MS-Logo-Text-Mobile {
+	display: none;
+}}
+
+
+
+/* Настройки Меню */
+#MS-Navigation-Menu {
+	display: block;
+	text-align: center;
+	line-height: 4;
+	margin-top: 1.7em;
+}
+
+@media (max-width: 768px) {
+#MS-Navigation-Menu {
+	display: none;
+}}
+
+
+#MS-Mobile-Menu {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+#MS-Mobile-Menu {
+	display: none;
+}}
+
+
+
+/* Настройки Contact Us Button */
+#MS-Contact-Us-Button {
+	margin-top: 1.8em;
+	text-align: center;
+	background-color: #1f0000;
+}
+
+@media (max-width: 768px) {
+#MS-Contact-Us-Button {
+	display: none;
+}}
+
+
+
+/* Настройки кнопки REGISTRATION */
+#MS-Registration-Button {
+	color: #fff;
+	border-radius: 2em;
+	padding: 0.3em 1em;
+	margin-top: 0.5em;
+}
+
+
+
+/* Настройки заголовка Speakers */
+@media (min-width: 768px) {
+#MS-Speakers-Label {
+	text-align: left;
+	margin-top: 0.3em;
+}}
+
+@media (max-width: 768px) {
+#MS-Speakers-Label {
+	text-align: center;
+	margin-top: 1em;
+}}
+
+
+
+/* Настройки содержимого Speakers */
+@media (min-width: 768px) {
+#MS-Charles-Info {
+	text-align: left;
+}}
+
+@media (max-width: 768px) {
+#MS-Charles-Info {
+	text-align: center !important;
+}}
+
+
+
+#MS-Become-Speaker-All {
+	text-align: center;
+	margin-top: 1em;
+}
+
+@media (max-width: 992px) {
+#MS-Become-Speaker-Text {
+	display: none;
+}}
+
+@media (min-width: 992px) {
+#MS-Become-Speaker-Text-Mobile {
+	display: none;
+}}
+
+
+/* Настройки кнопки Apply Button */
+#MS-Apply-Button {
+    color: #fff;
+    font-size: 0.7em;
+    border-radius: 2em;
+	padding: 0.2em 1.7em;
+    margin-top: 2em;
+}
+
+#MS-Apply-Button-Mobile {
+ 	color: #fff;
+	border-radius: 2em;
+	padding: 0.3em 1em;
+	margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 992px) {
+#MS-Apply-Button {
+	display: none;
+}}
+
+@media (min-width: 992px) {
+#MS-Apply-Button-Mobile {
+	display: none;
+}}
